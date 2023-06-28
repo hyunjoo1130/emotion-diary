@@ -3,7 +3,7 @@ import React from 'react';
 const New = () => {
   return (
     <div>
-      <h1>이곳은 New 입니다.</h1>
+      <h1>New 💫</h1>
     </div>
   );
 };

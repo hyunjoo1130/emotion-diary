@@ -1,3 +1,103 @@
+/* google web font 에서 import 주소 복사해오기 */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&family=Satisfy&display=swap');
+
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .App {
+    width: 640px;
+  }
+}
+
+@media (max-width: 640px) {
+  .App {
+    width: 90vw;
+  }
+}
+
+#root {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Pacifico', cursive; */
+}
+
 .App {
-  padding: 30px;
+  min-height: 82vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Button */
+.Button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Quicksand', sans-serif;
+
+  cursor: pointer;
+}
+
+.Button_DEFAULT {
+  background-color: #d1d8e0;
+}
+
+.Button_POSITIVE {
+  background-color: #4b7bec;
+  color: #fff;
+}
+
+.Button_NEGATIVE {
+  background-color: #fc5c65;
+  color: #fff;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-bottom: 2px solid #e2e2e2;
+
+  font-size: 20px;
+}
+
+header > div {
+  display: flex;
+}
+
+header .header_left {
+  width: 25%;
+  justify-content: start;
+}
+
+header .header_center {
+  width: 50%;
+  justify-content: center;
+}
+
+header .header_right {
+  width: 25%;
+  justify-content: end;
 }

@@ -1,9 +1,14 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 const Diary = () => {
+  // Path Variable 을 'id'로 사용
+  // diary의 아이디를 전달
+  const { id } = useParams();
+
   return (
     <div>
-      <h1>이곳은 Diary 입니다.</h1>
+      <h1>This is Diary 📝</h1>
     </div>
   );
 };
